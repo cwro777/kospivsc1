@@ -1,0 +1,20 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "mytimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 0/1 * * * *"
+    },
+    {
+      "name": "tablePath",
+      "type": "table",
+      "direction": "out",
+      "tableName": "cwrotable7",
+     "connection": "AzureWebJobsStorage"
+     
+    }
+  ]
+  
+}
